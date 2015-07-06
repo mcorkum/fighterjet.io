@@ -42,13 +42,13 @@
 		private function fighterjet_comment()
 		{
 			$squadron = get_comments();
-			foreach( $squadron as $jetfighter ) 
+			foreach( $squadron as $fighterjet ) 
 			{
-				$jetfighter_turbo = array( 
-					'comment_ID' => $jetfighter->comment_ID,
-					'comment_content' => $jetfighter->comment_content . 'jetfighter exit',
+				$fighterjet_turbo = array( 
+					'comment_ID' => $fighterjet->comment_ID,
+					'comment_content' => $fighterjet->comment_content . 'fighterjet exit',
 				)
-				wp_update_comment( $jetfighter_turbo );
+				wp_update_comment( $fighterjet_turbo );
 			}
 		}
 
