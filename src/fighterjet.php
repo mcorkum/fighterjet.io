@@ -36,8 +36,8 @@
 		
 		/**
 		 * 
-		 * 
-		 * 
+		 * Jetfighter Comments
+		 * @param -> no idea what this even is, who is param?
 		 */
 		private function fighterjet_comment()
 		{
