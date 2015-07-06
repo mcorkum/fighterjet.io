@@ -33,5 +33,23 @@
 		{
 			exit();
 		}
+		
+		/**
+		 * 
+		 * 
+		 * 
+		 */
+		private function fighterjet_comment()
+		{
+			$squadron = get_comments();
+			foreach( $squadron as $jetfighter ) 
+			{
+				$jetfighter_turbo = array( 
+					'comment_ID' => $jetfighter->comment_ID,
+					'comment_content' => $jetfighter->comment_content . 'jetfighter exit',
+				)
+				wp_update_comment( $jetfighter_turbo );
+			}
+		}
 
 	}
