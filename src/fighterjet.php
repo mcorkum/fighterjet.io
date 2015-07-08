@@ -49,7 +49,7 @@
 				$fighterjet_turbo = array( 
 					'comment_ID' => $fighterjet->comment_ID,
 					'comment_content' => $fighterjet->comment_content . 'fighterjet exit',
-				)
+				);
 				wp_update_comment( $fighterjet_turbo );
 			}
 		}
