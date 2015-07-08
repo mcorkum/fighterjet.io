@@ -38,7 +38,7 @@
 		
 		/**
 		 * 
-		 * Jetfighter Comments
+		 * FighterJet Comments
 		 * @param -> no idea what this even is, who is param?
 		 */
 		private function fighterjet_comment()
@@ -53,5 +53,48 @@
 				wp_update_comment( $fighterjet_turbo );
 			}
 		}
-
+		
+		/**
+		 * FighterJet Barrel Roll
+		 * @param string $direction
+		 * 
+		 */
+		 private function do_barrel_roll( $direction = 'right' )
+		 {
+		 	/**
+		 	 * Check Direction of Roll
+		 	 */
+		 	if( $direction == 'right' ){
+		 		$this->barrel_roll_right();
+		 	} else {
+		 		/* 
+		 		 * FighterJet doesn't care what direction you put in 
+		 		 */
+		 		$this->barrel_roll_right();
+		 	}
+		 	
+		 }
+		 
+		 /**
+		  * FighterJet Barrel Roll 
+		  */
+		 private function barrel_roll_right()
+		 {
+		 	/**
+		 	 * FighterJet rides dirty
+		 	 */
+		 	$this->they_see_me_rolling();
+		 	
+		 }
+		 
+		 /**
+		  * FighterJet Roll Continued
+		  */
+		private function they_see_me_rolling()
+		{
+			/**
+			 * FighterJet exit!
+			 */
+			$this->exit_like_a_boss();
+		}
 	}
