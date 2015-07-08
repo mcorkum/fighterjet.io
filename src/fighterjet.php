@@ -32,6 +32,8 @@
 		private function exit_like_a_boss()
 		{
 			exit();
+			
+			// GOOOOOOOOOOOOOOOOOOOOOOOOSE!!!!!!!!!!
 		}
 		
 		/**
