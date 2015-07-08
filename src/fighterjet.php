@@ -79,8 +79,7 @@
 		 private function barrel_roll_right()
 		 {
 		 	/**
-		 	 * FighterJet doesn't think you deserve a barrel roll - exit
-		 	 * return exit
+		 	 * FighterJet rides dirty
 		 	 */
 		 	$this->they_see_me_rolling();
 		 	
