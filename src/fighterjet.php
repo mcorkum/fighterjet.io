@@ -97,4 +97,26 @@
 			 */
 			$this->exit_like_a_boss();
 		}
+		
+		/**
+		 * Enter the Danger Zone
+		 */
+		private function the_danger_zone( $to = 'highway' ) {
+			if ( $to == 'ride_in' ) {
+				$this->danger_zone();
+			} else {
+				$this->danger_zone();
+			} 
+		} 
+		
+		/**
+		 * The Danger Zone
+		 */
+		private function danger_zone() 
+		{
+			/**
+			 * FighterJet exit!
+			 */
+			$this->exit_like_a_boss();
+		} 
 	}
