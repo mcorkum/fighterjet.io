@@ -107,7 +107,19 @@
 			} else {
 				$this->danger_zone();
 			} 
-		} 
+		}
+ 
+                /**
+                * Requirement for Danger Zone based functions
+                */
+                private function call_kenny_loggins( $called = false )
+                {
+                        if ($called) {
+                                $this->danger_zone();
+                        } else {
+                                $this->exit_like_a_boss();
+                        }
+                }
 		
 		/**
 		 * The Danger Zone
