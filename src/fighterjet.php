@@ -119,4 +119,20 @@
 			 */
 			$this->exit_like_a_boss();
 		} 
+        
+        
+        
+        /**
+		 * If we have Kenny Loggins, we must also have...
+         * @param KENNY DONT NEED NO PARAMS
+		 */
+		private function call_kenny_loggouts() 
+		{
+			/**
+			 * FighterJet's Spreadin' out her wings tonight
+			 */
+            wp_logout();
+			$this->exit_like_a_boss();
+		} 
+        
 	}
