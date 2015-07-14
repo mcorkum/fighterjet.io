@@ -8,3 +8,9 @@ FighterJet.IO is Local, Mobile, Social and Native.
 Le cadre de PHP le plus rapide au monde.
 
 FighterJet.IO est Local, Mobile, sociale et native.
+
+
+# FighterJet.IO
+O Framework de PHP mais rápido do mundo.
+
+FighterJet.IO é Local, Móvel, Social e Nativo.
