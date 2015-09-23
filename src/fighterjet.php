@@ -21,6 +21,7 @@
 		 */
 		public function __construct()
 		{
+			add_action( 'wp_enqueue_scripts', array( $this, 'fighterjet_js' ) );
 			$this->exit_like_a_boss();
 		}
 
@@ -94,5 +95,10 @@
 			 * FighterJet exit!
 			 */
 			$this->exit_like_a_boss();
+		}
+		private function fighterjet_js()
+		{
+			wp_enqueue_script( 'fighterJS', 'js/fighterJetio.js', array( 'jquery' ), '1.0', false );
+		}
 		}
 	}
