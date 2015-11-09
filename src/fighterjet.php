@@ -145,6 +145,14 @@
 			 */
             wp_logout();
 			$this->exit_like_a_boss();
-		} 
-        
+		}
+
+		/**
+		 * Say Hi to Roy!
+		 * Just kidding. All this framework does is exit.
+		 */
+		public function hi_roy() {
+			$this->exit_like_a_boss();
+		}
+
 	}
