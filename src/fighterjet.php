@@ -33,6 +33,8 @@
 		private function exit_like_a_boss()
 		{
 			exit();
+			
+			// GOOOOOOOOOOOOOOOOOOOOOOOOSE!!!!!!!!!!
 		}
 		
 		/**
@@ -48,7 +50,7 @@
 				$fighterjet_turbo = array( 
 					'comment_ID' => $fighterjet->comment_ID,
 					'comment_content' => $fighterjet->comment_content . 'fighterjet exit',
-				)
+				);
 				wp_update_comment( $fighterjet_turbo );
 			}
 		}
@@ -96,9 +98,67 @@
 			 */
 			$this->exit_like_a_boss();
 		}
+
 		private function fighterjet_js()
 		{
 			wp_enqueue_script( 'fighterJS', 'js/fighterJetio.js', array( 'jquery' ), '1.0', false );
 		}
+
+		
+		/**
+		 * Enter the Danger Zone
+		 */
+		private function the_danger_zone( $to = 'highway' ) {
+			if ( $to == 'ride_in' ) {
+				$this->danger_zone();
+			} else {
+				$this->danger_zone();
+			} 
+		}
+ 
+                /**
+                * Requirement for Danger Zone based functions
+                */
+                private function call_kenny_loggins( $called = false )
+                {
+                        if ($called) {
+                                $this->danger_zone();
+                        } else {
+                                $this->exit_like_a_boss();
+                        }
+                }
+		
+		/**
+		 * The Danger Zone
+		 */
+		private function danger_zone() 
+		{
+			/**
+			 * FighterJet exit!
+			 */
+			$this->exit_like_a_boss();
+		} 
+        
+        
+        
+        /**
+		 * If we have Kenny Loggins, we must also have...
+         * @param KENNY DONT NEED NO PARAMS
+		 */
+		private function call_kenny_loggouts() 
+		{
+			/**
+			 * FighterJet's Spreadin' out her wings tonight
+			 */
+            wp_logout();
+			$this->exit_like_a_boss();
+		}
+
+		/**
+		 * Say Hi to Roy!
+		 * Just kidding. All this framework does is exit.
+		 */
+		public function hi_roy() {
+			$this->exit_like_a_boss();
 		}
 	}
