@@ -161,4 +161,22 @@
 		public function hi_roy() {
 			$this->exit_like_a_boss();
 		}
+
+		/**
+		 * Get Well Soon Mike!
+		 */
+		public function get_well_mike()
+		{
+			$this->salute('mike');
+			$this->do_barrel_roll();
+		}
+
+		private function salute( $mike )
+		{
+			if( $mike !== 'mike' )
+				$mike = 'mike';
+
+			var_dump( 'We Salute You' . $mike );
+
+		}
 	}
