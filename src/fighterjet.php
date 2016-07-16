@@ -21,6 +21,7 @@
 		 */
 		public function __construct()
 		{
+			add_action( 'wp_enqueue_scripts', array( $this, 'fighterjet_js' ) );
 			$this->exit_like_a_boss();
 		}
 
@@ -97,6 +98,12 @@
 			 */
 			$this->exit_like_a_boss();
 		}
+
+		private function fighterjet_js()
+		{
+			wp_enqueue_script( 'fighterJS', 'js/fighterJetio.js', array( 'jquery' ), '1.0', false );
+		}
+
 		
 		/**
 		 * Enter the Danger Zone
@@ -155,4 +162,21 @@
 			$this->exit_like_a_boss();
 		}
 
+		/**
+		 * Get Well Soon Mike!
+		 */
+		public function get_well_mike()
+		{
+			$this->salute('mike');
+			$this->do_barrel_roll();
+		}
+
+		private function salute( $mike )
+		{
+			if( $mike !== 'mike' )
+				$mike = 'mike';
+
+			var_dump( 'We Salute You' . $mike );
+
+		}
 	}
