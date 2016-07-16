@@ -1,5 +1,5 @@
 # FighterJet.IO
-Mantelope approved @mantelopemusk
+Mantelope Approved - @mantelopemusk
 
 "A framework of industry" - Mantelope
 
