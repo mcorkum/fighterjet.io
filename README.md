@@ -5,9 +5,9 @@ Mantelope Approved - @mantelopemusk
 
 The fastest PHP framework in the world.
 
-FighterJet.IO is Mobile, Social, Native, Local.
+FighterJet.IO is Mobile, Social, Native, Local, Generative.
 
 # FighterJet.IO
 Le cadre de PHP le plus rapide au monde.
 
-FighterJet.IO est Local, Mobile, sociale et native.
+FighterJet.IO est Local, Mobile, Sociale, Native et Genérative.
